@@ -6,7 +6,7 @@ As far as you can, complete the model datasheet. If you have got the data from t
 
 The MNIST database was created to provide a testbed for people wanting to try pattern recognition methods or machine learning algorithms while spending minimal efforts on preprocessing and formatting. 
 
- 
+
 ## Composition
 
 Images of the original dataset (NIST) were in two groups, one consisting of images drawn by Census Bureau employees and one consisting of images drawn by high school students. In NIST, the training set was built by grouping all the images of the Census Bureau employees, and the test set was built by grouping the images form the high school students. 
@@ -17,15 +17,15 @@ The goal in building MNIST was to have a training and test set following the sam
 
 ## Preprocessing/cleaning/labelling
 
-The original images from NIST were size normalized to fit a 20x20 pixel box while preserving their aspect ratio. The resulting images contain grey levels (i.e., pixels don't simply have a value of black and white, but a level of greyness from 0 to 255) as a result of the anti-aliasing technique used by the normalization algorithm. The images were then centered in a 28x28 image by computing the center of mass of the pixels, and translating the image so as to position this point at the center of the 28x28 field.
+The original images from NIST were size normalized to fit a 20x20 pixel box while preserving their aspect ratio. The resulting images contain grey levels (i.e., pixels don't simply have a value of black and white, but a level of grayness from 0 to 255) as a result of the anti-aliasing technique used by the normalization algorithm. The images were then centered in a 28x28 image by computing the center of mass of the pixels, and translating the image so as to position this point at the center of the 28x28 field.
 
 ## Uses
 
-The dataset is for use in deveopling machine learning image classification algorithms.
+The dataset is for use in developing machine learning image classification algorithms.
 
 ## Distribution
 
-The dataset is widely distrobuted.
+The dataset is widely distributed on Machine Learning websites.
 
 ## Maintenance
 
