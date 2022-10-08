@@ -17,9 +17,9 @@ The project then seeks to optimise the three hyperparameters as follow:
 - dropout rate (0 to 60%)
 
 ## RESULTS
-The Bayesian Optimization improved the hyper parameters beyond the best from an initial randon run of ten.  We tried three different acquisition functions UCB, max variance, and Prob of Improvement (0.05) and all of them managed to improve from hyper parameters with an accuracy of 0.92, to optimal hyper parameters which gave an accuracy of 0.975.
+The Bayesian Optimization improved the hyper parameters beyond the best from an initial random run of ten.  We tried three different acquisition functions UCB, max variance, and Prob of Improvement (0.05) and all of them managed to improve from hyper parameters with an accuracy of 0.9239, to optimal hyper parameters which gave an accuracy of over 0.97.
 
-In this instance the maximum variance acquisition function got to the optimal value the quickest.
+In this instance the maximum variance acquisition function got to better values the quickest, but UCB worked best in the long run.
 
 ![Screenshot](chart1.png)
 
